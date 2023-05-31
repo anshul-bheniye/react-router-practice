@@ -49,7 +49,8 @@
 }
 
 .logo,
-.nav-item{
+.nav-item,
+.footer span{
   text-decoration: none;
 }
 
