@@ -9,9 +9,9 @@ export const Header = () => {
         <span>ROuter Navigation</span>
       </Link>
       <nav>
-        <NavLink to='/'>Home</ NavLink>
-        <NavLink to='/products'>Products</ NavLink>
-        <NavLink to='/contact'>Contact</ NavLink>
+        <NavLink to='/' className='nav-item' end>Home</ NavLink>
+        <NavLink to='/products' className='nav-item' end>Products</ NavLink>
+        <NavLink to='/contact' className='nav-item' end>Contact</ NavLink>
       </nav>
     </div>
   )
