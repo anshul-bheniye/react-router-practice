@@ -1,7 +1,9 @@
-import React from 'react'
+import NotFound from '../pnf.svg'
 
 export const PageNotFound = () => {
   return (
-    <div>404 - Page Not Found</div>
+    <div>
+      <img src={NotFound} alt="404" />
+    </div>
   )
 }
