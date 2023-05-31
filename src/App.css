@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+/* ----------------------------------------------- */
+
+.header,
+.header .logo,
+.header nav,
+.footer{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.header{
+  justify-content: space-between;
+}
+
+.header .logo img{
+  width:40px;
+  height: 40px;
+}
+
+.header .logo span{
+  align-self: center;
+}
+
+nav,
+.footer{
+  justify-content: space-evenly;
+  margin-right: 10px;
+}
+
+.main{
+  height: 90vh;
+}
+
