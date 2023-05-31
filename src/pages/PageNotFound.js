@@ -1,4 +1,4 @@
-import NotFound from '../pnf.svg'
+import NotFound from '../asset/pnf.svg';
 
 export const PageNotFound = () => {
   return (

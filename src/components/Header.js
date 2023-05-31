@@ -1,5 +1,5 @@
 import {Link, NavLink} from 'react-router-dom';
-import Logo from '../logo.svg';
+import Logo from '../asset/logo.svg';
 
 export const Header = () => {
   return (
@@ -10,8 +10,8 @@ export const Header = () => {
       </Link>
       <nav>
         <NavLink to='/' className='nav-item' end>Home</ NavLink>
-        <NavLink to='/products' className='nav-item' end>Products</ NavLink>
-        <NavLink to='/contact' className='nav-item' end>Contact</ NavLink>
+        <NavLink to='/products' className='nav-item' >Products</ NavLink>
+        <NavLink to='/contact' className='nav-item' >Contact</ NavLink>
       </nav>
     </div>
   )
