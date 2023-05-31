@@ -50,7 +50,7 @@
 
 .logo,
 .nav-item,
-.footer span{
+.footer span a{
   text-decoration: none;
 }
 
