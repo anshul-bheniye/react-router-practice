@@ -73,4 +73,7 @@ nav,
 .main{
   height: 90vh;
 }
+.home li{
+  list-style: none;
+}
 
